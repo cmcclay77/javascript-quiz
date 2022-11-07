@@ -6,11 +6,11 @@ This is a short multiple choice quiz designed using HTML, CSS and JavaScript.  T
 
 ## Usage
 
-The live link is:
+The live link is:  [Link to Password Generator](https://cmcclay77.github.io/password-generator)
 
 ## Screenshot
 
-
+![Alt text](./assets/images/screenshot-password-generator.png?raw=true "Screenshot")
 
 ## Credits
 
