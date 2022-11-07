@@ -1,32 +1,27 @@
-/* * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+h1 {
+	font-size: 3rem;
+	letter-spacing: 2px;
+	display: flex;
+	justify-content: center;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-body {
-    background-color: bisque;
+header p {
+	display: flex;
+	justify-content: center;
+	font-size: 2rem;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-
-.container .welcome {
-    color: #808080;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 50px;
-    text-align: center;
-}
-
-#button {
-    float: right;
-} */
 
 body{
 	padding: 0;
 	margin: 0;	
 	width:100vw;
-	height: 100vh;	
+	height: 100vh;
+	background-color: papayawhip;	
 }
 .panel{
-	height: 100vh;
+	height: 60vh;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -34,12 +29,15 @@ body{
 }
 .question-container{
 	margin: 10px;
-	padding: 5px;
+	padding: 30px 0 0 0;
 	width: 80vw;
 	height: 10vh;
-	background-color: #c7dddf;
-	font-size: x-large;
+	background-color: #a8a037;
+	font-size: 2rem;
 	text-align: center;
+	border: 5px solid black;
+	border-radius: 30px;
+	box-shadow: 5px 7px 12px 0px gray;
 	
 }
 .result{
@@ -55,19 +53,23 @@ body{
 	display: flex;
 	justify-content: space-around;
 	margin: 10px;
-	padding: 5px;
+	padding: 40px 0 0 0;
 	width: 80vw;
 	height: 20vh;
-	background-color: #9eb1b3;
+	background-color: #6055d4;
+	border: 5px solid black;
+	border-radius: 30px;
+	box-shadow: 5px 7px 12px 0px gray;
 		
 }
 .option{	
 	padding: 10px;
 	width: 15vw;
 	height: 10vh;
-	font-size: larger;
-	background-color: lightskyblue;
-	border-radius: 25%;
+	font-size: 25px;
+	color: #000000;
+	background-color: #8a7d7d;
+	border-radius: 25px;
 }
 .option:hover{
 	background-color: lightgoldenrodyellow;
@@ -79,14 +81,18 @@ body{
 	padding: 5px;
 	display: flex;
 	justify-content: space-around;
-	background-color:#c7dddf;
+	background-color:#29666f;
+	border: 5px solid black;
+	border-radius: 30px;
+	box-shadow: 5px 7px 12px 0px gray;
 }
 
 .evaluate,.next{
-	width:30vw;
+	width:20vw;
 	height: 8vh;
 	padding: 5px;
 	font-size: larger;
+	border-radius: 30px;
 }
 .evaluate{
 	
@@ -111,4 +117,28 @@ body{
 #timer-text {
 	font-size: 20px;
 	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.hide {
+	display: none;
+}
+
+.highscore-container {
+	display: flex;
+	justify-content: center;
+	margin: 20px 0;
+}
+
+.highscore-button {
+	padding: 10px;
+	width: 10vw;
+	height: 6vh;
+	background-color: blueviolet;
+	color: whitesmoke;
+}
+
+#submit {
+	background-color: gainsboro;
+	margin: 10px;
+	width: 5vw;
 }
