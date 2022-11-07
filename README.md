@@ -6,7 +6,7 @@ This is a short multiple choice quiz designed using HTML, CSS and JavaScript.  T
 
 ## Usage
 
-The live link is:  [Link to Password Generator](https://cmcclay77.github.io/password-generator)
+The live link is:  [Link to JavaScript Code Quiz](https://cmcclay77.github.io/javascript-quiz)
 
 ## Screenshot
 
