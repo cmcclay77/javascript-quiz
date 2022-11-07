@@ -10,7 +10,7 @@ The live link is:  [Link to Password Generator](https://cmcclay77.github.io/pass
 
 ## Screenshot
 
-![Alt text](./assets/images/screenshot-password-generator.png?raw=true "Screenshot")
+![Alt text](./assets/images/screenshot-javascript-code-quiz.jpg?raw=true "Screenshot")
 
 ## Credits
 
