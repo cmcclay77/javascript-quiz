@@ -1,26 +1,3 @@
-<!-- <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>JavaScript Code Quiz</title>
-    <link rel="stylesheet" href="./assets/css/styles.css" />
-  </head>
-  <body>
-    <!-- <div class="container">
-      <h1 class="welcome">JavaScript Code Quiz</h1>
-      <h2 id="countdown"></h2>
-      <p id="main"></p>
-    </div> -->
-    <!-- <div id="quiz"></div>
-        <button id="submit">Take Quiz</button>
-    <div id="results"></div>
-
-    <script src="./assets/js/script.js"></script>
-  </body>
-</html> -->
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -30,9 +7,19 @@
 	<link rel="stylesheet" href="./assets/css/styles.css">
 </head>
 <body>
+	<div class="highscore-container"> <!--add styles later to these classes-->
+        <a href="highscores.html"><button class="highscore-button">Return to High Scores Page!</button></a>
+    </div>
+
 	<section id="timer-container">
 		<h3 id="clock-timer">Time Remaining: <span id="timer-text"></span></h3>
 	</section>
+
+	<header>
+		<h1>JavaScript Code Quiz</h1>
+		<p>Try to answer the questions in 2 minutes!</p>
+	</header>
+	
 	<div class="panel">
 		<div class="result">
 
@@ -53,6 +40,14 @@
 			<button class="evaluate">Evaluate</button>
 			<button class="next">Next</button>
 		</div>
+		<div id="highscoreblock">
+			<h2>End of Quiz!</h2>
+			<p>Final score is<span id="final-score"></span>:</p>
+			<p>
+			  Enter your initials: <input type="text" id="initials" max="3" />
+			  <a href="highscores.html"><button id="submit">Submit</button></a>
+			</p>
+		  </div>
 	</div>
 	<script src="./assets/js/script.js"></script>
 </body>
